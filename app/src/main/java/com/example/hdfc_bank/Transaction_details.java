@@ -18,15 +18,16 @@ private Button back1;
         myname=findViewById(R.id.dipu);
         myaccount=findViewById(R.id.oneTh);
         mybalance=findViewById(R.id.balance1);
+        back1=findViewById(R.id.back);
         myname.setText(getIntent().getStringExtra("name1"));
         myaccount.setText(getIntent().getStringExtra("accountNo"));
         mybalance.setText(getIntent().getStringExtra("balanceT"));
-//        back1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent=new Intent(Transaction_details.this,MainActivity2.class);
-//                startActivity(intent);
-//            }
-//        });
+        back1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Transaction_details.this,MainActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 }

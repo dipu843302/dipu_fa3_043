@@ -16,14 +16,16 @@
          android:textColor="@color/white"
         android:layout_marginTop="20dp"
          android:layout_gravity="center"/>
+
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="99dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
 
-        android:src="@drawable/hdfc_bank_logo"/>
-      <Button
+        app:srcCompat="@drawable/_110876517941441084_1110876517941441084" />
+
+    <Button
           android:id="@+id/button"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
