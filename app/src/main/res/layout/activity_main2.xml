@@ -39,7 +39,7 @@
         android:textSize="20dp"/>
 
     <Button
-        android:id="@+id/transaction"
+        android:id="@+id/details"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
